@@ -1,0 +1,1285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar1{
+    width: 100%;
+    height: 40px;
+    background-color: #0E7E82;
+    display: flex;
+}
+
+.phone-number{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-icon{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone-icon p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.phone-logo{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-logo img{
+    width: 15px;
+}
+
+.menu{
+    display: none;
+}
+
+.chat-logo{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-logo img{
+    width: 60px;
+}
+
+.gallery{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.corporate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gift-card{
+    background-color:#872546; 
+    height: 40px; 
+    width: 120px;
+}
+
+.corporate p{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.corporate img{
+    width: 18px;
+}
+
+.navbar2{
+    width: 100%;
+    height: 140px;
+    background-image:url('./asset\ 2.jpeg');
+}
+
+.pcj-part1{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pcj-input{
+    width: 550px;
+    height: 40px;
+    background-color: white; 
+    display: flex;
+    align-items: center; 
+    border: 1px solid rgb(173, 169, 169);     
+}
+
+.pcj-input input{
+    width: 510px;
+    height: 40px;
+    background: none;
+    border: none;
+    color:white;
+    font-size:15px;
+    padding-left: 15px;
+}
+
+.pcj-login{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pcj-login a{
+    text-decoration: none;
+    color: #5A0522;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pcj-login img{
+    width: 30px;
+}
+
+.pcj-part2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pcj-gallery{
+    width: 90%;
+    height: 50px;
+    background-color: white;
+    border:2px solid #c08105;
+    border-radius: 10px;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.responsive-input{
+    background-color: white;
+    width: 750px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.responsive-input input{
+    background: none;
+    border: none;
+    padding-left: 20px;
+    font-size:15px ;
+    color: #6f6f6f;
+}
+
+.responsive-input img{
+    padding-left: 10px;
+}
+
+.pcj-gallery a{
+    text-decoration: none;
+    color: #39322F;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pcj-gallery img{
+    width: 20px;
+}
+
+.bg-img{
+    background-image:url('./Desktop-Banner-Baby__1231996102075666407.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+}
+
+.special-container{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.icon-container{
+    width: 90%;
+    height: 110px;
+    background:linear-gradient(to left,#F7F7F7,#efefef,#efefef,#F7F7F7 );
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.best{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.best img{
+    width: 40px;
+}
+
+.best h3{
+    color: #1F1F14;
+    font-size: 17px;
+}
+
+.top-treading{
+    width: 100%;
+    height: 100px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-treading h2{
+    padding-bottom: 15px;
+}
+
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: #9E7922;
+}
+
+.jwellery-container{
+    width: 100%;
+    height:790px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.jwellery-box{
+    display: grid;
+    grid-template-rows: repeat(3, 240px);
+    grid-template-columns: repeat(4,280px);
+    gap: 10px;
+    /* padding-left: 110px;
+    padding-top: 10px; */
+}
+
+.box1{
+    background-image: url('./Dasavtar\ Collection.webp');
+    background-size: cover;
+}
+
+.box2{
+    background-image: url('./Plique\ A\ Zour\ Collection.webp');
+    background-size: cover;
+}
+
+.box3{
+    background-image: url('./top-collections-website-banner-12.webp');
+    background-size: cover;
+}
+
+.box4{
+    background-image: url('./Mangal\ Sutra\ Collection.webp');
+    background-size: cover;
+}
+
+.box5{
+    background-image: url('./Mirosa\ Collection.webp');
+    background-size: cover;
+}
+
+.box6{
+    background-image: url('./Amour\ Collection.webp');
+    background-size: cover;
+}
+
+.box7{
+    background-image: url('./Expresso\ Collection.webp');
+    background-size: cover;
+}
+
+.box8{
+    background-image: url('./Bandhan\ Collection.webp');
+    background-size: cover;
+}
+
+.box9{
+    background-image: url('./Initial\ Collection.webp');
+    background-size: cover;
+}
+
+.box10{
+    background-image: url('./Twinning\ Collection.webp');
+    background-size: cover;
+}
+
+.box11{
+    background-image: url('./Inayat\ Collection.webp');
+    background-size: cover;
+}
+
+.box12{
+    background-image: url('./La\ Danza\ Collection\ webp.webp');
+    background-size: cover;
+}
+
+.view-all-btn{
+    width: 100%;
+    height: 80px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-all-btn button{
+    padding: 5px 50px;
+    color: #9E7922;
+    border: 1px solid #c08105;
+    background: none;
+    margin-bottom: 60px;
+}
+
+
+.view-all-btn2{
+    width: 100%;
+    height: 80px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-all-btn2 button{
+    padding: 5px 50px;
+    color: #9E7922;
+    border: 1px solid #c08105;
+    background: none;
+    margin-bottom: 60px;
+}
+
+
+.best-sellers{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.best-seller-container{
+    width: 90%;
+    height: 420px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-img{
+    width: 400px;
+    height: 420px;
+    background-image: url('./best-sellers.jpg');
+}
+
+.best1{
+    width: 210px;
+    height: 420px;
+}
+
+.best1:hover{
+    border: 1px solid black;
+    transition: all ease-in-out 1s;
+}
+
+.best2:hover {
+    border: 1px solid black;
+    transition: all ease-in-out 1s;
+}
+
+.best3:hover {
+    border: 1px solid black;
+    transition: all ease-in-out 1s;
+}
+
+.best4:hover {
+    border: 1px solid black;
+    transition: all ease-in-out 1s;
+}
+
+.heart{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.heart img{
+    width: 30px;
+}
+
+.jwelles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jwelles img{
+    width: 180px;
+}
+
+.price{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price p{
+    font-weight: 500;
+}
+
+.price s{
+    color: rgb(84, 84, 84);
+}
+
+.price3{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price3 p{
+    font-weight: 500;
+}
+
+.off{
+    font-size: 15px;
+}
+
+.off s{
+    color: rgb(84, 84, 84);
+}
+
+.save{
+    font-size: 15px;
+    color: rgb(87, 87, 87);
+}
+
+.price3 p span{
+    color: #EE9B4D;
+}
+
+.best2{
+    width: 210px;
+    height: 420px;
+}
+
+.best3{
+    width: 200px;
+    height: 420px;
+}
+
+.best4{
+    width: 200px;
+    height: 420px;
+}
+
+.browser{
+    width: 100%;
+    height: 50px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rings-container{
+    width: 100%;
+    height: 1750px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rings-box{
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    grid-template-rows: repeat(3,550px);
+    gap: 10px;
+}
+
+.ring1{
+    background-image: url('./rings.webp');
+    background-size: cover;
+}
+
+.ring2{
+    background-image: url('./earrings_1.webp');
+    background-size: cover;
+}
+
+.ring3{
+    background-image: url('./pendent.webp');
+    background-size: cover;
+}
+
+.ring4{
+    background-image: url('./bangles.webp');
+    background-size: cover;
+}
+
+.ring5{
+    background-image: url('./diamond_1.webp');
+    background-size: cover;
+}
+
+.ring6{
+    background-image: url('./baby-collections.webp');
+    background-size: cover;
+}
+
+.what-new{
+    width: 100%;
+    height: 100px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.what-new h2{
+    padding-bottom: 15px;
+}
+
+.card-container{
+    width: 100%;
+    height: 250px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(2,100px);
+    gap: 10px;
+}
+
+.card1{
+    background-image: url('./Whats-New-1.webp');
+    background-size: cover;
+}
+
+.card2{
+    background-image: url('./Whats-New-2.webp');
+    background-size: cover;
+}
+
+.card3{
+    background-image: url('./Whats-New-3.webp');
+    background-size: cover;
+}
+
+.card4{
+    background-image: url('./best-sellers.jpg');
+    background-size: cover;
+}
+.card5{
+    background-image: url('./diamond\ collection\ banner.webp');
+    background-size: cover;
+}
+.card6{
+    background-image: url('./Whats-New-6.webp');
+    background-size: cover;
+}
+
+.ready{
+    width: 100%;
+    height: 100px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ready h2{
+    padding-bottom: 15px;
+}
+
+.earing-container{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.diamond-earring{
+    width: 90%;
+    height: 420px;
+    display: flex;
+    background-color: white;
+}
+
+.earing-section{
+    width: 50%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blank-section{
+    width: 50%;
+    height: 420px;
+}
+
+.ear1{
+    width: 50%;
+    height: 420px;
+}
+
+.ear1:hover {
+    border: 1px solid black;
+    transition: all ease-in-out 1s;
+}
+
+.heart-img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ear-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ear-img img{
+    width: 250px;
+}
+
+.heart-img img{
+    width: 35px;
+}
+
+.price{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.off2{
+    font-size: 15px;
+}
+
+.off2 span{
+    color: #EE9B4D;
+}
+
+.product-name{
+    font-size: 18px;
+    color: #57596C;
+}
+
+.testimonial{
+    width: 100%;
+    height: 100px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonial p{
+    color: #807E89;
+    padding-top:10px ;
+    padding-bottom: 15px;
+}
+
+.testimonial-container{
+    width: 100%;
+    height: 450px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.people-test{
+    width: 90%;
+    height: 400px;
+    display: flex;
+}
+
+.yash{
+    width: 33.33%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.yash-para p{
+    height: 120px;
+    font-weight: 500;
+    color: #6f6f6f;
+    text-align: center;
+}
+
+.yash-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 180px;
+}
+
+.yash-img img{
+    border-radius: 100px;
+}
+
+.yash-img p{
+    color: #6f6f6f;
+    font-weight: 500;
+}
+
+.social-media{
+    width: 100%;
+    height: 150px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.facebook{
+    width: 210px;
+    height: 40px;
+    background-color: #3B5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+
+.face-img{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face-para{
+    width: 70%;
+}
+
+.face-img img{
+    width: 30px;
+}
+
+.face-para p{
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+}
+
+.shop-without{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shop-worry{
+    width: 25%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-worry p{
+    font-size: 15px;
+    font-weight: 800;
+    color: #737373;
+}
+
+.store-locator{
+    width: 100%;
+    height: 80px;
+    background-color: #0E7E82;
+    display: flex;
+    align-items: center;
+}
+
+.store-img{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.store-img img{
+    width: 40px;    
+}
+
+.store-text{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.store-text h4{
+    color: white;
+    font-size: 18px;
+}
+
+.store-text p{
+    width: 175px;
+    font-weight: 500;
+    color: white;
+}
+
+.footer1{
+    width: 100%;
+    height:300px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview{
+    width: 220px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overview ul{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.overview ul a{
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+
+.overview2{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overview2 ul{
+    height: 2000px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.overview2 ul a{
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+.footer2{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text{
+    width: 90%;
+    height: 530px;
+}
+
+.footer-text p{
+    color: #636465;
+}
+
+.responsive-footer{
+    width: 100%;
+    height: 200px;
+    background-color: #03979c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+.icici{
+    width: 98%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icici p{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.icici span{
+    font-size:14px;
+    font-weight: 700;
+}
+
+.follow-us{
+    width: 98%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.follow-us h3{
+    font-size: 18px;
+    color: white;
+}
+
+.responsive-icon{
+    width: 25%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.face div{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face div img{
+    width: 35px;
+}
+
+
+
+
+        /* Responsive */
+
+
+
+
+
+
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .phone-icon{
+        display: none;
+    }
+
+    .chat-logo{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .gallery{
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .corporate{
+        display: none;
+    }
+
+    .gift-card{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+    }
+
+    .gift-card p{
+        font-size: 15px;
+    }
+
+    .store{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 105px;
+        margin-left: 5px;
+    }
+
+    .navbar2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .pcj-part1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .pcj-input{
+        display: none;
+    }
+
+    .pcj-login a{
+        display: none;
+    }
+
+    .pcj-heart{
+        display:none;
+    }
+
+    .pcj-logo{
+        width: 430px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .flower-logo{
+        width: 120px;
+    }
+
+    .menu{
+        display: block;
+        width: 30px;
+    }
+
+    .pcj-login{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .pcj-gallery{
+        display: none;
+    }
+
+    .responsive-input{
+        display: block;
+        width: 768px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .bg-img{
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 350px;
+    }
+
+     .special-container{
+        width: 100%;
+     }   
+
+     .icon-container{
+        width: 98%;
+     }
+
+     .best img{
+        width: 25px;
+     }
+
+     .best h3{
+        font-size: 12px;
+     }
+
+     .best p{
+        font-size: 12px;
+     }
+
+    .jwellery-container{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jwellery-box{
+        display: grid;
+        grid-template-columns: repeat(4,180px);
+        grid-template-rows: repeat(3,170px);
+    }
+
+    .view-all-btn button{
+        margin-top: 50px;
+    }
+
+    .best-sellers{
+        display: none;
+    }
+
+    .rings-container{
+        height: 1400px;
+        width: 100%;
+    }
+
+    .rings-box{
+        display: grid;
+        grid-template-columns: repeat(2,370px);
+        grid-template-rows: repeat(3,450px);
+    }
+
+    .card-container{
+        width: 100%;
+        height: 130px;
+    }
+
+    .card-box{
+        display: grid;
+        grid-template-columns: repeat(3,240px);
+        grid-template-rows: repeat(2,50px);
+    }
+
+    .ready{
+        display: none;
+    }
+
+    .earing-container{
+        display: none;
+    }
+
+    .testimonial{
+        display: none;
+    }
+
+    .testimonial-container{
+        display: none;
+    }
+
+    .view-all-btn2{
+        display: none;
+    }
+
+    .social-media{
+        display: none;
+    }
+
+    .shop-without{
+        display: none;
+    } 
+
+    .store-locator{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .store-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .store-text{
+        text-align: center;
+    }
+    
+    .footer1{
+        display: none;
+    }
+
+    .footer2{
+        display: none;
+    }
+
+    .responsive-footer{
+        display: block;
+    }
+}
